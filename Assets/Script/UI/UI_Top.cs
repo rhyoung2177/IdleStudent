@@ -15,7 +15,11 @@ public class UI_Top : MonoBehaviour
 
     void Update()
     {
-        goldText.text = "";
-        jewelText.text = "";
+    }
+
+    public void UpdateCurrency()
+    {
+        goldText.text = OutGameManager.instance.Coin.ToString();
+        jewelText.text = OutGameManager.instance.Jewel.ToString();
     }
 }

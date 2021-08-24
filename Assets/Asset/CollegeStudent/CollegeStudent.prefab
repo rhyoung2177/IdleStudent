@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2053518115102101881}
   - component: {fileID: 2053518115102101878}
-  - component: {fileID: 3663559811804287899}
+  - component: {fileID: 8199127857798372669}
   m_Layer: 0
   m_Name: CollegeStudent
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3663559811804287899
+--- !u!114 &8199127857798372669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,10 +144,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2053518115102101880}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b5cbb2b3365e242987b44f2d8b7eea, type: 3}
+  m_Script: {fileID: 11500000, guid: ac89e8bb0e53abd41ae5f6de8265880e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 2053518115102101878}
+  atk: 150
+  def: 0
+  atkSpeed: 0
+  critical: 0
 --- !u!1001 &2053518113545207968
 PrefabInstance:
   m_ObjectHideFlags: 0

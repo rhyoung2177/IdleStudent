@@ -53,12 +53,15 @@
     <UnityVersion>2020.1.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\InGame\CharacterManager.cs" />
     <Compile Include="Assets\Script\UI\UI_Top.cs" />
+    <Compile Include="Assets\Script\InGame\MonsterSpawner.cs" />
     <Compile Include="Assets\Asset\CollegeStudent\Demo\DemoCollegeStudentController.cs" />
     <Compile Include="Assets\Script\UI\UIManager.cs" />
-    <Compile Include="Assets\Script\InGame\MonsterSpawner.cs" />
-    <Compile Include="Assets\Script\InGame\MonsterManager.cs" />
+    <Compile Include="Assets\Script\InGame\StopTrigger.cs" />
+    <Compile Include="Assets\Script\OutGameManager.cs" />
+    <Compile Include="Assets\Script\InGame\InGameManager.cs" />
+    <Compile Include="Assets\Script\InGame\Character.cs" />
+    <Compile Include="Assets\Script\InGame\Monster.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
