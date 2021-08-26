@@ -267,3 +267,9 @@ C:\Users\yhy74\Desktop\IdleStudent\obj\Debug\UniRx.csproj.CoreCompileInputs.cach
 C:\Users\yhy74\Desktop\IdleStudent\obj\Debug\UniRx.csproj.CopyComplete
 C:\Users\yhy74\Desktop\IdleStudent\obj\Debug\UniRx.dll
 C:\Users\yhy74\Desktop\IdleStudent\obj\Debug\UniRx.pdb
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.CJK.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.MidEast.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.Other.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.Rare.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.West.dll

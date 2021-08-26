@@ -323,3 +323,9 @@ C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\System.ServiceModel.Http.dll
 C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\System.ServiceModel.NetTcp.dll
 C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\System.ServiceModel.Primitives.dll
 C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\System.ServiceModel.Security.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.CJK.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.MidEast.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.Other.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.Rare.dll
+C:\Users\yhy74\Desktop\IdleStudent\Temp\Bin\Debug\I18N.West.dll
