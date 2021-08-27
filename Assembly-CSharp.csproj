@@ -60,6 +60,7 @@
      <Compile Include="Assets\Script\InGame\StopTrigger.cs" />
      <Compile Include="Assets\Asset\Recyclable Scroll Rect\Main\Scripts\Recycling System\HorizontalRecyclingSystem.cs" />
      <Compile Include="Assets\Asset\Recyclable Scroll Rect\Demo\Scripts\DemoCell.cs" />
+     <Compile Include="Assets\Script\MySqlTest.cs" />
      <Compile Include="Assets\Asset\CollegeStudent\Demo\DemoCollegeStudentController.cs" />
      <Compile Include="Assets\Script\UI\UIManager.cs" />
      <Compile Include="Assets\Asset\Recyclable Scroll Rect\Main\Scripts\RecyclableScrollRect.cs" />
@@ -69,7 +70,6 @@
      <Compile Include="Assets\Script\OutGameManager.cs" />
      <Compile Include="Assets\Script\InGame\Monster.cs" />
      <Compile Include="Assets\Script\UI\UIGrowthScroller.cs" />
-     <Compile Include="Assets\Script\MySqlTest.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -364,140 +364,26 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.16f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
- <Reference Include="I18N.MidEast">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.MidEast.dll</HintPath>
- </Reference>
- <Reference Include="I18N.Rare">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.Rare.dll</HintPath>
- </Reference>
- <Reference Include="I18N.Other">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.Other.dll</HintPath>
- </Reference>
- <Reference Include="I18N.West">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.West.dll</HintPath>
- </Reference>
- <Reference Include="I18N">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.dll</HintPath>
+ <Reference Include="MySql.Data">
+ <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/MySql.Data.dll</HintPath>
  </Reference>
  <Reference Include="I18N.CJK">
  <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.CJK.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.Extensions.DependencyInjection">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll</HintPath>
+ <Reference Include="I18N">
+ <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+ <Reference Include="I18N.MidEast">
+ <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.MidEast.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.EntityFrameworkCore.Relational">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+ <Reference Include="I18N.Other">
+ <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.Other.dll</HintPath>
  </Reference>
- <Reference Include="Microsoft.Extensions.Options">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Options.dll</HintPath>
+ <Reference Include="I18N.Rare">
+ <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.Rare.dll</HintPath>
  </Reference>
- <Reference Include="Ubiety.Dns.Core">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Ubiety.Dns.Core.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Configuration">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Configuration.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Caching.Abstractions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.DiagnosticSource">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Diagnostics.DiagnosticSource.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Logging">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Logging.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Annotations">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.ComponentModel.Annotations.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.EntityFrameworkCore">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.EntityFrameworkCore.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="K4os.Compression.LZ4">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/K4os.Compression.LZ4.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Principal.Windows">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Security.Principal.Windows.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Logging.Abstractions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
- </Reference>
- <Reference Include="Zstandard.Net">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Zstandard.Net.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Buffers.dll</HintPath>
- </Reference>
- <Reference Include="BouncyCastle.Crypto">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/BouncyCastle.Crypto.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Extensions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.AccessControl">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Security.AccessControl.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Bcl.AsyncInterfaces">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="System.Configuration.ConfigurationManager">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Configuration.ConfigurationManager.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Caching.Memory">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
- </Reference>
- <Reference Include="K4os.Compression.LZ4.Streams">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/K4os.Compression.LZ4.Streams.dll</HintPath>
- </Reference>
- <Reference Include="System.Memory">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Memory.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Configuration.Binder">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll</HintPath>
- </Reference>
- <Reference Include="K4os.Hash.xxHash">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/K4os.Hash.xxHash.dll</HintPath>
- </Reference>
- <Reference Include="MySql.EntityFrameworkCore">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/MySql.EntityFrameworkCore.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Primitives">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Extensions.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="MySql.Data">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/MySql.Data.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Immutable">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Collections.Immutable.dll</HintPath>
- </Reference>
- <Reference Include="Google.Protobuf">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Google.Protobuf.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding.CodePages">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Text.Encoding.CodePages.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Bcl.HashCode">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.Bcl.HashCode.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.ProtectedData">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Security.Cryptography.ProtectedData.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Permissions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/System.Security.Permissions.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
- <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+ <Reference Include="I18N.West">
+ <HintPath>C:/Users/yhy74/Desktop/IdleStudent/Assets/Plugins/dll/I18N.West.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

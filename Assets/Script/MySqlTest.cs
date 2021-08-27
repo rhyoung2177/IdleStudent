@@ -24,7 +24,7 @@ public class MySqlTest : MonoBehaviour
     private string sqlDBip = "127.0.0.1";
     private string sqlDBname = "firsttest";
     private string sqlDBid = "root";
-    private string sqlDBpw = "autoset";
+    private string sqlDBpw = "fb1180601*";
 
     private void sqlConnect()
     {
