@@ -60,7 +60,7 @@
      <Compile Include="Assets\Script\InGame\StopTrigger.cs" />
      <Compile Include="Assets\Asset\Recyclable Scroll Rect\Main\Scripts\Recycling System\HorizontalRecyclingSystem.cs" />
      <Compile Include="Assets\Asset\Recyclable Scroll Rect\Demo\Scripts\DemoCell.cs" />
-     <Compile Include="Assets\Script\MySqlTest.cs" />
+     <Compile Include="Assets\Script\NetworkManager.cs" />
      <Compile Include="Assets\Asset\CollegeStudent\Demo\DemoCollegeStudentController.cs" />
      <Compile Include="Assets\Script\UI\UIManager.cs" />
      <Compile Include="Assets\Asset\Recyclable Scroll Rect\Main\Scripts\RecyclableScrollRect.cs" />
@@ -70,6 +70,7 @@
      <Compile Include="Assets\Script\OutGameManager.cs" />
      <Compile Include="Assets\Script\InGame\Monster.cs" />
      <Compile Include="Assets\Script\UI\UIGrowthScroller.cs" />
+     <Compile Include="Assets\Script\TitleLoading.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

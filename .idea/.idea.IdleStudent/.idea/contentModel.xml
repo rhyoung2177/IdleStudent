@@ -330,8 +330,9 @@
             <e p="MonsterSpawner.cs" t="Include" />
             <e p="StopTrigger.cs" t="Include" />
           </e>
-          <e p="MySqlTest.cs" t="Include" />
+          <e p="NetworkManager.cs" t="Include" />
           <e p="OutGameManager.cs" t="Include" />
+          <e p="TitleLoading.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="UI_Top.cs" t="Include" />
             <e p="UIGrowthScroller.cs" t="Include" />
